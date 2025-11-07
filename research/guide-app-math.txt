@@ -1,0 +1,45 @@
+Die Maps in den Bohrkarten nutzen das Koordinatensystem mit dem EPSG:4326 (OpenStreetMap).
+Die Berechnungsmethode zur Positionierung der Koordinaten in 3D ist die Rektangularprojektion.
+Die Bohrzylinder sind auf einen Durchmesser von 8 Zentimeter voreingestellt (Minimalgröße).
+Die Vernetzung der Koordinaten erfolgt mit der Delaunay-Triangulation.
+Die Zellenbildung erfolgt durch ein Voronois-Diagramm.
+Die Boundnig-Box x 1.5 (20 Meter Minimum) begrenzt die Zellenausbreitung.   
+
+
+🗺️ Kartendarstellung und Geometrie in den Bohrkarten
+
+Standardeinstellungen
+
+Die Karten in den Bohrdaten nutzen das Koordinatensystem EPSG:4326, bekannt aus OpenStreetMap, für eine vereinfachte georeferenzierte Darstellung.
+
+Die 3D-Positionierung der Koordinaten erfolgt über die Equirectangular Approximation. Bei linienhaften Strukturen (z.B. Straßen) ist die Erdkrümmung wichtig, weshalb andere Projektionsverfahren (ECF, LTP, UTM) integriert werden.
+
+Jeder Bohrzylinder ist standardmäßig auf einen Durchmesser von 8 cm eingestellt – das entspricht etwa dem Maximum des realen Äquivalents.
+
+Für die Vernetzung der Koordinaten wird die Delaunay-Triangulation verwendet, um von Punkten zu geschlossenen Geometrien zu gelangen.
+
+Die Flächen- bzw. Zellenbildung basiert auf einem Voronoi-Diagramm, das die Umgebung logisch in Einflussbereiche unterteilt.
+
+Eine Bounding-Box mit dem Faktor 1.5 begrenzt die Ausbreitung der Zellen und sorgt für eine kontrollierte Darstellung im Raum.
+
+Das Grid (Gitternetzlinien) dient der Orientierung. Die Größe des Grids entspricht der horizontalen Fläche der BB und ist standardmäßig in 5 x 5 Bereiche untergliedert. Das Grid liegt mittig zwischen dem höchten Punkt der höchsten Schicht und dem niedrigsten Punkt der niedrigsten Schicht.
+
+-> zur Featureliste
+
+⚙️ Standardeinstellungen
+Die Bohrdatenkarten verwenden das geodätische Koordinatensystem EPSG:4326 (WGS 84), bekannt aus OpenStreetMap, zur vereinfachten georeferenzierten Darstellung.
+
+Die Umrechnung von Längen- und Breitengraden in die 3D-Szene erfolgt über die Equirectangular Approximation, basierend auf einem lokal berechneten Referenzpunkt. Für linienhafte oder großflächige Strukturen (z. B. Straßen, Trassen) wird die Erdkrümmung berücksichtigt. In solchen Fällen kommen alternative Projektionsverfahren wie ECEF (Earth-Centered, Earth-Fixed), LTP (Local Tangent Plane) oder UTM (Universal Transverse Mercator) zum Einsatz.
+
+Jeder Bohrzylinder ist standardmäßig auf einen Durchmesser von 8 cm eingestellt – dies entspricht dem oberen Bereich typischer realer Bohrdurchmesser.
+
+Zur Vernetzung der Koordinaten wird die Delaunay-Triangulation verwendet, um aus diskreten Punktdaten geschlossene Flächengeometrien zu erzeugen.
+
+Die Flächen- bzw. Zellenbildung basiert auf einem Voronoi-Diagramm, das die Umgebung in logisch getrennte Einflussbereiche segmentiert.
+
+Eine Bounding-Box mit einem Skalierungsfaktor von 1.5 begrenzt die räumliche Ausdehnung der Zellen und sorgt für eine kontrollierte Darstellung innerhalb der Szene. 
+
+Das Grid (Gitternetzlinien) dient der räumlichen Orientierung. Es entspricht der horizontalen Fläche der Bounding-Box und ist standardmäßig in 5 × 5 Segmente unterteilt. Die vertikale Position des Grids liegt mittig zwischen dem höchsten Punkt der obersten Schicht und dem tiefsten Punkt der untersten Schicht.
+
+
+   

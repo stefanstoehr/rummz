@@ -1,4 +1,6 @@
-![Alt-Text](promo/messe-rummz.png)
+# APPLICATION FOR PROTOTYPE FUND
+
+![Alt-Text](promo/download.png)
 
 ## 1. Allgemeines
 
@@ -70,11 +72,11 @@ Export: Der JSON- und IFC-Export per Klick machen die App zum vollständigen MVP
 
 ### An welchen Software-Projekten hast du / habt ihr bisher gearbeitet? Bei Open-Source-Projekten bitte einen Link zum Repository angeben.
 
-Hinweis: Max. 3 Projektbeispiele angeben (mit Namen und/oder Link zum Repository)
-
 05/2025 bis 07/2025 habe ich für den Lehrstuhl Produktionswirtschaft der Universität in Cottbus ein interaktives Dashboard für die Ansicht von Ist- und Soll-Signalen (Wifi) für Desktop und mobile Endgeräte mit QGIS und Three.js als 3D-Anwendung programmiert. Siehe Link: https://github.com/prodwilab
 12/2024 bis 05/2025 konnte ich für die A+S Consult GmbH aus Dresden eine kommerzielle 3D IFC-React-App programmieren. Funktionen die auch bei RUMMZ vorkommen sind Formularverarbeitung, 3D IFC-Viewer, Kartenanbindung und Projektion.
 02/2022 bis 06/2022 habe ich für das Stadtplanungsamt in Cottbus eine interaktive Karten-App mit QGIS, Leaflet.js, Tooltips und Geolokalisierung erstellt. Link: https://github.com/stadtentwicklung  
+
+![Alt-Text](promo/portfolio.png)
 
 ### Erfahrung, Hintergrund, Motivation, Perspektive: Was sollen wir über dich (bzw. euch) wissen und bei der Auswahl berücksichtigen?
 

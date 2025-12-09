@@ -58,6 +58,8 @@ Zusätzlich bietet das Dashboard eine dynamische Auswertung der Bodeninformation
 
 Für die initiale Verbreitung werden zwei bis vier Pilotkunden aus Bauverwaltungen und Bauunternehmen als Multiplikatoren in ihrem Netzwerk wirken, neben der Open-BIM- und OSM-Community (FOSSGIS).
 
+![Alt-Text](promo/RUMMZ-Plan.png)
+
 ### Skizziere kurz die wichtigsten Meilensteine, die im Förderzeitraum umgesetzt werden sollen. *
 
 Benutzerschnittstelle: Die Logik und das Layout ist mit grundlegenden UI-Elementen wie Input-Elementen, Event-Listeners/-Handlers,  (Scroll-)Buttons, Icons und einem informativen Guide- sowie Dashboard-Bereich ausgestattet.

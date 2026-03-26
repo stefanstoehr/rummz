@@ -1,7 +1,3 @@
-# APPLICATION FOR PROTOTYPE FUND
-
-![Alt-Text](promo/download.png)
-
 ## 1. Allgemeines
 
 ### Projekttitel *
